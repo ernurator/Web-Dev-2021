@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <title>Registration</title>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+        <h1 class="header">Register page</h1>
+        <a href="index.html">Go back</a>
+        <a href="form5.html">HTML5 Forms</a>
+        <form>
+            <fieldset>
+                <label>Fullname</label>
+                <input type="text" placeholder="Enter your name" value="Yera" autofocus>
+            </fieldset>
+            <fieldset>
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" disabled>
+            </fieldset>
+            <fieldset>
+                <label>Age</label>
+                <input type="number" placeholder="Enter your age" readonly value="18">
+            </fieldset>
+            <fieldset>
+                <label>Some checkbox</label>
+                <p>Do you agree?<input type="checkbox"></p>
+            </fieldset>
+            <fieldset>
+                <label>Other inputs</label>
+                <input type="range">
+                <input type="date">
+                <input type="time">
+            </fieldset>
+            <fieldset>
+                <label>Radio</label>
+                <input type="radio" name="user-option">Option 1
+                <input type="radio" name="user-option"> Option 2
+            </fieldset>
+            <fieldset>
+                <label>Select</label>
+                <select>
+                    <option value="0">-</option>
+                    <option value="1">Almaty</option>
+                    <option value="2">Astana</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label>Bio</label>
+                <textarea required cols="50" rows="7"></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </body>
+</html>

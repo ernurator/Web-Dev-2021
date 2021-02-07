@@ -1,0 +1,11 @@
+h1.header {
+    color:darkolivegreen;
+}
+
+.header {
+    width: fit-content;
+    color: cadetblue;
+    background: beige;
+    border: 2px burlywood dashed;
+    border-radius: 3px 15px 3px 15px;
+}
