@@ -1,0 +1,84 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(53, 53, 53);
+    padding: 20px 100px;
+    color: darkgray;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.list {
+    width: 50vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.new-task {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.add-btn {
+    background-color: cornflowerblue;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.items {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px;
+    border: gray 1px solid;
+    background: rgb(255, 255, 255);
+}
+
+.item input {
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.item span {
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow-wrap: anywhere;
+}
+
+.item img {
+    flex-shrink: 0;
+    cursor: pointer;
+    height: 20px;
+}
+
+.item.checked {
+    text-decoration: line-through;
+}
+
+.item.unchecked {
+    text-decoration: none;
+}
