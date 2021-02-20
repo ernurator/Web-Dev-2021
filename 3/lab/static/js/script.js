@@ -2,6 +2,12 @@ const submitBtn = document.querySelector('.add-btn');
 const itemsList = document.querySelector('.items');
 const input = document.querySelector('.new-task');
 
+document.querySelector('.clear-all-btn')
+        .addEventListener('click', function() {
+            itemsList.innerHTML = '';
+            saveChanges();
+        });
+
 window.onload = function() {
     let items = JSON.parse(localStorage.getItem('data-list'));
     if(items) {
@@ -19,7 +25,7 @@ submitBtn.addEventListener('click', function(){
 
 function addElement(txt, checked=false) {
     const taskTxt = document.createElement('span');
-    taskTxt.innerHTML = txt;
+    taskTxt.textContent = txt;
 
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
@@ -32,7 +38,7 @@ function addElement(txt, checked=false) {
     binImg.addEventListener('click', deleteItem);
 
     const task = document.createElement('div');
-    task.className = 'item ' + (checked ? 'checked' : 'unchecked');
+    task.className = 'item' + (checked ? ' checked' : '');
     task.appendChild(checkbox);
     task.appendChild(taskTxt);
     task.appendChild(binImg);
@@ -46,10 +52,7 @@ function deleteItem() {
 }
 
 function changeDecoration() {
-    if (this.checked)
-        this.parentNode.className = 'item checked';
-    else
-        this.parentNode.className = 'item unchecked';
+    this.parentNode.classList.toggle('checked');
     saveChanges();
 }
 
@@ -57,13 +60,12 @@ function saveChanges() {
     let dataList = []
     itemsList.childNodes.forEach(node => {
         let checked = (node.querySelector('input') || {}).checked;
-        let text = (node.querySelector('span') || {}).innerHTML;
+        let text = (node.querySelector('span') || {}).textContent;
         if(checked === undefined || !text) return;
         dataList.push({
             checked,
             text
         });
-        console.log(node);
     });
     localStorage.setItem('data-list', JSON.stringify(dataList));
 }

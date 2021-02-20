@@ -39,15 +39,20 @@ header h2 {
     border-radius: 5px;
 }
 
-.add-btn {
+.add-btn,
+.clear-all-btn {
     background-color: cornflowerblue;
     border: 1px gray solid;
     border-radius: 5px;
     padding: 4px 20px;
 }
 
+.clear-all-btn {
+    background-color: crimson;
+}
+
 .items {
-    margin-top: 20px;
+    margin: 20px 0;
     width: 100%;
 }
 
@@ -78,8 +83,4 @@ header h2 {
 
 .item.checked {
     text-decoration: line-through;
-}
-
-.item.unchecked {
-    text-decoration: none;
 }
