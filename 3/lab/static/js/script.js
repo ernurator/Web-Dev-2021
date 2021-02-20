@@ -1,6 +1,7 @@
 const submitBtn = document.querySelector('.add-btn');
 const itemsList = document.querySelector('.items');
 const input = document.querySelector('.new-task');
+const doneItemsList = document.querySelector('.items.done');
 
 document.querySelector('.clear-all-btn')
         .addEventListener('click', function() {
@@ -35,7 +36,10 @@ function addElement(txt, checked=false) {
     const binImg = document.createElement('img')
     binImg.src = 'static/img/bin.jpg';
     binImg.alt = 'Delete icon';
-    binImg.addEventListener('click', deleteItem);
+    binImg.addEventListener('click', function() {
+        this.parentNode.remove();
+        saveChanges();
+    });
 
     const task = document.createElement('div');
     task.className = 'item' + (checked ? ' checked' : '');
@@ -43,16 +47,20 @@ function addElement(txt, checked=false) {
     task.appendChild(taskTxt);
     task.appendChild(binImg);
 
-    itemsList.appendChild(task);
-}
-
-function deleteItem() {
-    this.parentNode.remove();
-    saveChanges();
+    if (checkbox.checked) {
+        doneItemsList.appendChild(task);
+    } else {
+        itemsList.appendChild(task);
+    }
 }
 
 function changeDecoration() {
     this.parentNode.classList.toggle('checked');
+    if (this.checked) {
+        doneItemsList.appendChild(this.parentNode);
+    } else {
+        itemsList.appendChild(this.parentNode);
+    }
     saveChanges();
 }
 
@@ -67,5 +75,16 @@ function saveChanges() {
             text
         });
     });
+
+    doneItemsList.childNodes.forEach(node => {
+        let checked = (node.querySelector('input') || {}).checked;
+        let text = (node.querySelector('span') || {}).textContent;
+        if(checked === undefined || !text) return;
+        dataList.push({
+            checked,
+            text
+        });
+    });
+
     localStorage.setItem('data-list', JSON.stringify(dataList));
 }
