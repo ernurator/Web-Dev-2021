@@ -43,18 +43,20 @@ export class AppComponent {
     this.items = [];
   }
 
-  btnClick() {
+  btnClick(): void {
     this.isMessage = !this.isMessage;
   }
 
-  addItem() {
+  addItem(): void {
     this.display = this.display.trim();
-    if(this.display === '') return;
+    if (this.display === '') {
+      return;
+    }
     this.items.push(this.display);
     this.display = '';
   }
 
-  removeItem(index: number) {
+  removeItem(index: number): void {
     this.items.splice(index, 1);
   }
 }
