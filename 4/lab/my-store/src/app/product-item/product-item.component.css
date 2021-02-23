@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px rgb(221, 221, 221) solid;
+  box-shadow: 0 0 10px rgb(180, 180, 180);
+  width: 300px;
+}
+
+.item img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.item p {
+  text-justify: distribute;
+  text-align: justify;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.share-btn {
+  text-decoration: none;
+}
+
+.material-icons {
+  color: rgb(63, 63, 63);
+}
