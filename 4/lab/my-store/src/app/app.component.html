@@ -2,6 +2,12 @@
   <h1>My Store</h1>
 </header>
 
-<div class="items-list">
-  <app-product-item *ngFor="let item of items" [item]="item"></app-product-item>
+<div class="category">
+  <h3>Select the category</h3>
+  <select [(ngModel)]="selectedCategory">
+    <option *ngFor="let category of categories" 
+      [ngValue]="category">{{category.name}}</option>
+  </select>
 </div>
+
+<app-product-list [category]="selectedCategory"></app-product-list>

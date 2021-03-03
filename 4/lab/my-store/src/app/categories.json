@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Healthcare"
+  },
+  {
+    "id": 3,
+    "name": "Books"
+  },
+  {
+    "id": 4,
+    "name": "Hand tools"
+  }
+]

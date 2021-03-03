@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { item } from '../app.component'
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
+import { Item } from '../item'
 
 @Component({
   selector: 'app-product-item',
@@ -8,9 +8,11 @@ import { item } from '../app.component'
 })
 export class ProductItemComponent implements OnInit {
 
-  @Input() declare item: item;
-  constructor() {
+  @Input() declare item: Item;
+  @Output() remove = new EventEmitter();
+  constructor() { }
 
+  ngOnInit(): void {
   }
 
   getRating(): number {
@@ -21,7 +23,12 @@ export class ProductItemComponent implements OnInit {
     return `https://t.me/share/url?url=${this.item.link}&text=${'Hi! Look what I\'ve found on the Amazon.'}`;
   }
 
-  ngOnInit(): void {
+  removeItem(): void {
+    this.remove.emit(this.item);
+  }
+
+  addLike(): void {
+    this.item.likes++;
   }
 
 }

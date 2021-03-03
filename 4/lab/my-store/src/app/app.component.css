@@ -12,15 +12,8 @@ h1 {
   margin: 8px 0;
 }
 
-.items-list {
+.category {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-content: space-between;
-  margin: 50px 90px;
-}
-
-.items-list::after {
-  content: "";
-  flex: auto;
+  flex-flow: column nowrap;
+  align-items: center;
 }

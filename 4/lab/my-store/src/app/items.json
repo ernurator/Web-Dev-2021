@@ -4,69 +4,164 @@
     "link": "https://www.amazon.com/Smart-ELITEBOOK-I7-10610U-14IN-512GB/dp/B08D3XCXX5",
     "imageLink": "https://images-na.ssl-images-amazon.com/images/I/61ydql4SB5L._AC_SL1500_.jpg",
     "description": "SMART BUY ELITEBOOK 840 G7 I7-10610U 14IN 16GB 512GB",
-    "rating": 3.2
+    "rating": 3.2,
+    "categoryId": 1
+  },
+  {
+    "name": "Seagate Portable 2TB External Hard Drive",
+    "link": "https://www.amazon.com/Seagate-Portable-External-Hard-Drive/dp/B07CRG94G3",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/91QqR55XhQL._AC_SL1500_.jpg",
+    "description": "Easily store and access 2TB to content on the go with the Seagate Portable Drive, a USB external hard drive. Designed to work with Windows or Mac computers, this external hard drive makes backup a snap just drag and drop",
+    "rating": 4.7,
+    "categoryId": 1
   },
   {
     "name": "LG 32LM570BPUA 32' Class 720p Smart LED HD TV (2019)",
     "link": "https://www.amazon.com/LG-32LM570BPUA-Class-720p-Smart/dp/B07RWVXPGL",
     "imageLink": "https://images-na.ssl-images-amazon.com/images/I/81Zn8G7FgfL._AC_SL1500_.jpg",
     "description": "LG's 32LM570B HD 720p TV display offers a crisp, clear picture that brings dynamic color to your movies and shows.",
-    "rating": 4.5
+    "rating": 4.5,
+    "categoryId": 1
   },
   {
     "name": "Amazon Basics 36 Pack AAA High-Performance Alkaline Batteries, 10-Year Shelf Life, Easy to Open Value Pack",
     "link": "https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00LH3DMUO",
     "imageLink": "https://images-na.ssl-images-amazon.com/images/I/71nDX36Y9UL._AC_SL1026_.jpg",
     "description": "AAA 1.5-volt performance alkaline batteries; ideal for a variety of devices, including game controllers, toys, flashlights, digital cameras, and clocks",
-    "rating": 4.7
-  },
-  {
-    "name": "100PCS 3 ply black disposable face shield filter protection",
-    "link": "https://www.amazon.com/100PCS-disposable-shield-filter-protection/dp/B08C7HDF1F",
-    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/617D0j72B1L._SL1000_.jpg",
-    "description": "Material: Three-layer non-woven fabric and meltblown fabric, Color: Black, Mask style: ear type",
-    "rating": 4.7
-  },
-  {
-    "name": "Equinox Professional Razor Edge Series Barber Hair Cutting Scissors - Japanese Stainless Steel Salon Scissors - 6.5” Overall Length - Fine Adjustment Tension Screw - Premium Shears for Hair Cutting",
-    "link": "https://www.amazon.com/Equinox-Professional-Shears-Razor-Edge/dp/B00KVYBY8M",
-    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/61sKdG3rSZL._SL1500_.jpg",
-    "description": "Top Scissor on Amazon for 4 Years",
-    "rating": 4.5
-  },
-  {
-    "name": "Castor Oil (2oz) USDA Certified Organic, 100% Pure, Cold Pressed, Hexane Free by Kate Blanc",
-    "link": "https://www.amazon.com/Certified-Kate-Stimulate-Eyelashes-Treatment/dp/B01NALN8Q9",
-    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/615AiiiHAUL._SL1100_.jpg",
-    "description": "If you’re looking for a natural and organic oil to grow your eyelashes and eyebrows, Kate Blanc’s organic castor oil is a Godsent.",
-    "rating": 4.5
+    "rating": 4.7,
+    "categoryId": 1
   },
   {
     "name": "USB C Hub Adapter for MacBook Pro 13 15 16 inch 2020 2019 2018 2017 2016,with Thunderbolt 3 5K 60HZ, 4K HDMI,100W PD, 2 USB 3.0 and SD TF Card Readers, Multiport Dongle for MacBook Air 2020 2019 2018",
     "link": "https://www.amazon.com/Adapter-MacBook-20172016-Thunderbolt-Readers/dp/B07X1VYRN3",
     "imageLink": "https://images-na.ssl-images-amazon.com/images/I/71ijB54TBwL._AC_SL1500_.jpg",
     "description": "7-in-1 USB C Hub for Macbook Pro/ Macbook Air",
-    "rating": 4.6
+    "rating": 4.6,
+    "categoryId": 1
+  },
+
+
+  {
+    "name": "100PCS 3 ply black disposable face shield filter protection",
+    "link": "https://www.amazon.com/100PCS-disposable-shield-filter-protection/dp/B08C7HDF1F",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/617D0j72B1L._SL1000_.jpg",
+    "description": "Material: Three-layer non-woven fabric and meltblown fabric, Color: Black, Mask style: ear type",
+    "rating": 4.7,
+    "categoryId": 2
   },
   {
-    "name": "Learning Angular: A no-nonsense beginner's guide to building web applications with Angular 10 and TypeScript, 3rd Edition",
-    "link": "https://www.amazon.com/Learning-Angular-no-nonsense-applications-TypeScript/dp/1839210664",
-    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/61+Qbwu03kL.jpg",
-    "description": "Uncover Angular's potential for creating enterprise web applications ― from setting up the environment to deployment ― with the help of expert guidance, step-by-step explanations, and hands-on exercises",
-    "rating": 4.3
+    "name": "Equinox Professional Razor Edge Series Barber Hair Cutting Scissors - Japanese Stainless Steel Salon Scissors - 6.5” Overall Length - Fine Adjustment Tension Screw - Premium Shears for Hair Cutting",
+    "link": "https://www.amazon.com/Equinox-Professional-Shears-Razor-Edge/dp/B00KVYBY8M",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/61sKdG3rSZL._SL1500_.jpg",
+    "description": "Top Scissor on Amazon for 4 Years",
+    "rating": 4.5,
+    "categoryId": 2
+  },
+  {
+    "name": "Castor Oil (2oz) USDA Certified Organic, 100% Pure, Cold Pressed, Hexane Free by Kate Blanc",
+    "link": "https://www.amazon.com/Certified-Kate-Stimulate-Eyelashes-Treatment/dp/B01NALN8Q9",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/615AiiiHAUL._SL1100_.jpg",
+    "description": "If you’re looking for a natural and organic oil to grow your eyelashes and eyebrows, Kate Blanc’s organic castor oil is a Godsent.",
+    "rating": 4.5,
+    "categoryId": 2
   },
   {
     "name": "Dove Beauty Bar Gently Cleanses and Nourishes Sensitive Skin Effectively Washes Away Bacteria While Nourishing Your Skin, 3.75 oz, 16 Bars",
     "link": "https://www.amazon.com/Dove-Beauty-Bar-Sensitive-Skin/dp/B005HO0AR2",
     "imageLink": "https://images-na.ssl-images-amazon.com/images/I/716LeKCTSPL._SL1500_.jpg",
     "description": "Dove creates products that keep you feeling cared for, every day. The hypoallergenic, fragrance-free Dove Sensitive Skin Beauty Bar is specially formulated with ¼ moisturizing cream and mild cleansers that won’t irritate sensitive skin while helping skin retain and replenish nutrients and moisture, revealing softer, smoother, and more radiant skin.",
-    "rating": 4.8
+    "rating": 4.8,
+    "categoryId": 2
   },
   {
     "name": "Amazon Basic Care Ibuprofen Tablets 200 mg, Pain Reliever/Fever ulcer (NSAID), Red, 500 Count",
     "link": "https://www.amazon.com/Basic-Care-Ibuprofen-Tablets-Count/dp/B074F297T8",
     "imageLink": "https://images-na.ssl-images-amazon.com/images/I/71rBmjlZOHL._AC_SL1500_.jpg",
     "description": "ACTIVE INGREDIENT: Amazon Basic Care Ibuprofen Tablets 200 mg contain ibuprofen 200 mg, a pain reliever/fever reducer (NSAID) Compare to the active ingredient in Advil",
-    "rating": 4.8
+    "rating": 4.8,
+    "categoryId": 2
+  },
+
+
+  {
+    "name": "Learning Angular: A no-nonsense beginner's guide to building web applications with Angular 10 and TypeScript, 3rd Edition",
+    "link": "https://www.amazon.com/Learning-Angular-no-nonsense-applications-TypeScript/dp/1839210664",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/61+Qbwu03kL.jpg",
+    "description": "Uncover Angular's potential for creating enterprise web applications ― from setting up the environment to deployment ― with the help of expert guidance, step-by-step explanations, and hands-on exercises",
+    "rating": 4.3,
+    "categoryId": 3
+  },
+  {
+    "name": "What's Mine and Yours",
+    "link": "https://www.amazon.com/Whats-Mine-Yours-Naima-Coster/dp/1538702347",
+    "imageLink": "https://m.media-amazon.com/images/I/41W9VFEr3yL.jpg",
+    "description": "A community in the Piedmont of North Carolina rises in outrage as a county initiative draws students from the largely Black east side of town into predominantly white high schools on the west. For two students, Gee and Noelle, the integration sets off a chain of events that will tie their two families together in unexpected ways over the next twenty years.",
+    "rating": 3.6,
+    "categoryId": 3
+  },
+  {
+    "name": "The Lost Apothecary",
+    "link": "https://www.amazon.com/Lost-Apothecary-Novel-Sarah-Penner/dp/0778311015",
+    "imageLink": "https://m.media-amazon.com/images/I/51iqRHTe96L.jpg",
+    "description": "Hidden in the depths of eighteenth-century London, a secret apothecary shop caters to an unusual kind of clientele. Women across the city whisper of a mysterious figure named Nella who sells well-disguised poisons to use against the oppressive men in their lives. But the apothecary’s fate is jeopardized when her newest patron, a precocious twelve-year-old, makes a fatal mistake, sparking a string of consequences that echo through the centuries.",
+    "rating": 4.5,
+    "categoryId": 3
+  },
+  {
+    "name": "Klara and the Sun",
+    "link": "https://www.amazon.com/Klara-Sun-novel-Kazuo-Ishiguro/dp/059331817X",
+    "imageLink": "https://m.media-amazon.com/images/I/41ftdk1yrEL.jpg",
+    "description": "Klara and the Sun, the first novel by Kazuo Ishiguro since he was awarded the Nobel Prize in Literature, tells the story of Klara, an Artificial Friend with outstanding observational qualities, who, from her place in the store, watches carefully the behavior of those who come in to browse, and of those who pass on the street outside.",
+    "rating": 5,
+    "categoryId": 3
+  },
+  {
+    "name": "The Committed",
+    "link": "https://www.amazon.com/Committed-Viet-Thanh-Nguyen/dp/0802157068",
+    "imageLink": "https://m.media-amazon.com/images/I/415A+1TaBGL.jpg",
+    "description": "The long-awaited new novel from one of America’s most highly regarded contemporary writers, The Committed follows the Sympathizer as he arrives in Paris as a refugee.",
+    "rating": 3.2,
+    "categoryId": 3
+  },
+
+  {
+    "name": "X-Acto No 1 Precision Knife",
+    "link": "https://www.amazon.com/X-Acto-XZ3601-X-ACTO-Knife-Safety/dp/B005KRSWM6",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/71mqmaRn0SL._AC_SL1500_.jpg",
+    "description": "Make precise, fine cuts every time with the X-ACTO #1 Z-Series Knife with Safety Cap. This versatile knife comes with a #11 fine point zirconium nitride-coated blade for sharpness and strength, and the lightweight aluminum handle enables you to make agile cuts with ease.",
+    "rating": 4.7,
+    "categoryId": 4
+  },
+  {
+    "name": "Komelon SM5425 Speed Mark Gripper Acrylic Coated Steel Blade Measuring Tape, 1-Inch X 25Ft",
+    "link": "https://www.amazon.com/Komelon-SM5425-Gripper-Acrylic-Measuring/dp/B008AGWNII",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/51zDAqrFwJL._AC_SL1000_.jpg",
+    "description": "SpeedMark fractional graduations on blade. Non glare white blade. Easy grip, thick rubber jacket",
+    "rating": 4.8,
+    "categoryId": 4
+  },
+  {
+    "name": "BLACK+DECKER 20V MAX Cordless Drill",
+    "link": "https://www.amazon.com/DECKER-LD120VA-20-Volt-Lithium-Accessories/dp/B006V6YAPI",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/61zZnjWQybL._AC_SL1200_.jpg",
+    "description": "Cordless drill with Lithium Ion Battery that is always ready and holds a charge up to 18 months. The 24 position clutch of this power drill prevents stripping and overdriving screws by providing extra level of control",
+    "rating": 4.7,
+    "categoryId": 4
+  },
+  {
+    "name": "DEWALT 20V MAX Cordless Drill / Driver Kit",
+    "link": "https://www.amazon.com/Dewalt-DCD771C2-Cordless-Lithium-Ion-Compact/dp/B00ET5VMTU",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/61IlzctRq0L._AC_SL1000_.jpg",
+    "description": "The DCD771C2 20V Max Lithium Ion Compact Drill/Driver Kit is lightweight and compact for working in tight spaces for long periods of time. High-speed transmission delivers 2-Speed variations allowing users to choose the level of performance needed for various applications.",
+    "rating": 4.8,
+    "categoryId": 4
+  },
+  {
+    "name": "EPAuto 1/2-inch Drive Click Torque Wrench",
+    "link": "https://www.amazon.com/EPAuto-2-inch-Torque-Wrench-13-6-203-5/dp/B01M1D17AW",
+    "imageLink": "https://images-na.ssl-images-amazon.com/images/I/91T--l6MbHL._AC_SL1500_.jpg",
+    "description": "Our four modules of torque wrenches are manufactured and tested in Taiwan factory with professional engineers to meet the highest industry standards. They are good for cars, trucks, motorcycles and bicycle maintenance.",
+    "rating": 4.6,
+    "categoryId": 4
   }
 ]
