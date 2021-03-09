@@ -1,0 +1,13 @@
+<div *ngIf="loaded">
+  <div *ngIf="post">
+    <h2>Post Detail #{{post.id}}</h2>
+
+    <input type="text" [(ngModel)]="post.title">
+    
+    <p>{{post.body}}</p>
+    <button (click)="updatePost()">Save</button>
+    <button (click)="goBack()">Go back</button>
+  </div>
+</div>
+
+<p *ngIf="!loaded">Loading post...</p>
