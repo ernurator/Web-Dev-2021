@@ -1,0 +1,14 @@
+:host {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+}
+
+nav {
+  margin: 10px;
+}
+
+footer {
+  background-color: rgb(219, 219, 219);
+  padding: 30px;
+  margin-top: 20px;
+}

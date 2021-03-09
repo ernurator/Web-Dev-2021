@@ -1,0 +1,13 @@
+<ng-template [ngIf]="loaded">
+  <h2>{{album.title}}</h2>
+
+  <fieldset>
+    <input type="text" [(ngModel)]="album.title">
+    <button (click)="updateAlbum()">Save</button>
+  </fieldset>
+  
+  <a [routerLink]="['/albums', album.id, 'photos']">View album's photos</a>
+  <button class="return-btn" (click)="returnBack()">Return back</button>
+</ng-template>
+
+<p *ngIf="!loaded">Loading...</p>
