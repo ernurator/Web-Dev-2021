@@ -5,5 +5,5 @@ urlpatterns = [
     path('hi/', hello),
     re_path(r'time/plus/(\d+)/', show_time),
     path('products/', product_list),
-    path('products/<int:product_id>', product_detail)
+    path('products/<int:product_id>/', product_detail)
 ]
