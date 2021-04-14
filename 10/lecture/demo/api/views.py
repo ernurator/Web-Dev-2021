@@ -1,10 +1,11 @@
 from django.http.response import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 from core.models import Category
 import json
 
 
-@csrf_exempt
+# @csrf_exempt
+# @ensure_csrf_cookie
 def category_list(request):
     if request.method == 'GET':
         categories = Category.objects.all()
