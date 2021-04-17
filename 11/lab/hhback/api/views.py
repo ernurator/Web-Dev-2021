@@ -32,7 +32,19 @@ def company_vacancies(request, company_id):
 
 
 def vacancies_list(request):
-    vacancies = Vacancy.objects.all()
+    top = request.GET.get('top', None)
+    if top is not None:
+        try:
+            top = int(top)
+            print(top)
+            if top <= 0: raise ValueError('\"top\" query parameter must be more than 0')
+            vacancies = Vacancy.objects.all().order_by('-salary')[:top]
+        except ValueError as e:
+            vacancies = Vacancy.objects.all()
+    else:
+        vacancies = Vacancy.objects.all()
+
+    # vacancies = Vacancy.objects.all()
     vacancies_json = [vacancy.to_json() for vacancy in vacancies]
     return JsonResponse(vacancies_json, safe=False)
 
