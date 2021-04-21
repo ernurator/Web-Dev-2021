@@ -1,5 +1,9 @@
 from django.http.response import JsonResponse
 from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
+
+# class based views
+# from django.views import View
+
 from core.models import Category
 import json
 
