@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import {Observable} from "rxjs";
-import {AuthToken, Category} from "./models";
+import {HttpClient} from '@angular/common/http';
+import {Observable} from 'rxjs';
+import {AuthToken, Category} from './models';
 
 @Injectable({
   providedIn: 'root'
 })
 export class CategoryService {
 
-  BASE_URL = 'http://localhost:8000'
+  BASE_URL = 'http://localhost:8000';
   constructor(private http: HttpClient) { }
 
   login(username, password): Observable<AuthToken> {
