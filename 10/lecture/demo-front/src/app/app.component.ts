@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {CategoryService} from './category.service';
 
 @Component({
@@ -6,14 +6,14 @@ import {CategoryService} from './category.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'demo-front';
 
   logged = false;
   username = '';
   password = '';
 
-  ngOnInit() {
+  ngOnInit(): void {
     const token = localStorage.getItem('token');
     if (token) {
       this.logged = true;
@@ -23,7 +23,7 @@ export class AppComponent {
   constructor(private categoryService: CategoryService) {
   }
 
-  login() {
+  login(): void {
     this.categoryService.login(this.username, this.password).subscribe((data) => {
 
       localStorage.setItem('token', data.token);
@@ -34,7 +34,7 @@ export class AppComponent {
     });
   }
 
-  logout() {
+  logout(): void {
     this.logged = false;
     localStorage.removeItem('token');
   }
